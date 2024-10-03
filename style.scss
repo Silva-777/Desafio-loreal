@@ -1,12 +1,14 @@
 *{ 
     margin: 0;
-    padding: 0;
+    padding: 3px;
     box-sizing: border-box;
 }
 
 body{
+    font-family: "Kodchasan", sans-serif;
     background-color: #EFEEF3;
 }
+
 header{
     display: flex;
     align-items: center;
@@ -44,8 +46,20 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 25px;
+}
+
+.image1{
+    border-radius: 10px;
 }
 
 .caixa1{
     width: 30vw;
 }
+
+.produtos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
